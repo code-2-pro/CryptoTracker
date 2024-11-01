@@ -4,5 +4,5 @@ import java.time.ZonedDateTime
 
 data class CoinPrice(
     val priceUsd: Double,
-    val datetime: ZonedDateTime
+    val dateTime: ZonedDateTime
 )
