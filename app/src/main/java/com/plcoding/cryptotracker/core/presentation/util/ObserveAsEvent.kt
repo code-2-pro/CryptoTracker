@@ -14,7 +14,7 @@ import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.withContext
 
 @Composable
-fun <T> ObserveAsEvent(
+fun <T> ObserveAsEvents(
     events: Flow<T>,
     key1: Any? = null,
     key2: Any? = null,
